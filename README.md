@@ -3,7 +3,7 @@
 ## Grup SSF 16
 - Rizqi Zaidan (2206059342)
 - Lavly Rantissa Zunnuraina Rusdi (2206830624)
-- Kevin Raihan (2206)
+- Kevin Raihan (2206059704)
 - Muhammad Nadhif Fasichul Ilmi (2206813416)
 
 ## Daftar Isi
