@@ -1,5 +1,20 @@
 <h1 align="center">TANNING BED</h1>
 
+## Daftar Isi
+1. [Pendahuluan Mengenai Masalah dan Solusinya](#pendahuluan-mengenai-masalah-dan-solusinya)
+   - [Pernyataan Masalah](#pernyataan-masalah)
+   - [Solusi](#solusi)
+2. [Rancangan dan Implementasi Perangkat Keras](#rancangan-dan-implementasi-perangkat-keras)
+   - [Komponen Perangkat Keras](#komponen-perangkat-keras)
+   - [Implementasi Perangkat Keras](#implementasi-perangkat-keras)
+3. [Rincian Implementasi Perangkat Lunak](#rincian-implementasi-perangkat-lunak)
+4. [Hasil Pengujian dan Evaluasi Kinerja](#hasil-pengujian-dan-evaluasi-kinerja)
+   - [Hasil Pengujian](#hasil-pengujian)
+   - [Metode Evaluasi Kinerja](#metode-evaluasi-kinerja)
+5. [Kesimpulan dan Pekerjaan Masa Depan](#kesimpulan-dan-pekerjaan-masa-depan)
+   - [Kesimpulan](#kesimpulan)
+   - [Pekerjaan Masa Depan](#pekerjaan-masa-depan)
+
 ## Grup SSF 16
 - Rizqi Zaidan (2206059342)
 - Lavly Rantissa Zunnuraina Rusdi (2206830624)
@@ -15,56 +30,36 @@ Proyek TANNING BED bertujuan untuk merancang dan mengimplementasikan tanning bed
 
 ## Rancangan dan Implementasi Perangkat Keras
 ### Komponen Perangkat Keras
-1. **Lampu UV**: Lampu UV dengan efisiensi tinggi untuk tanning yang terkontrol.
-2. **Sensor**: Sensor UV untuk memantau intensitas radiasi UV, sensor suhu untuk memastikan kenyamanan pengguna, dan sensor gerak untuk mendeteksi keberadaan pengguna.
-3. **Mikrokontroler**: Arduino atau mikrokontroler serupa untuk memproses data sensor dan mengontrol tanning bed.
-4. **Sistem Pendingin**: Kipas atau mekanisme pendingin untuk menjaga suhu optimal.
-5. **Mekanisme Keselamatan**: Saklar pemutus darurat dan pelindung.
+1. **Arduino Uno**
+2. **DHT11**
+3. **Button**
+4. **Resistor**
+5. **Kabel Jumper**
+6. **MAX7219**
+7. **Buzzer**
+8. **Motor driver**
 
-### Desain Sirkuit
-- **Sumber Daya**: Memastikan penyediaan daya yang stabil untuk semua komponen.
-- **Integrasi Sensor**: Menghubungkan sensor UV, suhu, dan gerak ke mikrokontroler.
-- **Sirkuit Kontrol**: Merancang sirkuit untuk lampu UV dan sistem pendingin yang dikontrol oleh mikrokontroler.
-- **Fitur Keselamatan**: Mengintegrasikan saklar pemutus darurat dan mekanisme keselamatan lainnya ke dalam sirkuit.
+### Implementasi Perangkat Keras
+** **
 
 ## Rincian Implementasi Perangkat Lunak
-### Firmware
-Mikrokontroler diprogram dengan fitur-fitur berikut:
-- **Pemrosesan Data Sensor**: Membaca data dari sensor UV, suhu, dan gerak.
-- **Algoritma Kontrol**: Algoritma untuk menyesuaikan intensitas lampu UV dan sistem pendingin berdasarkan input sensor.
-- **Protokol Keselamatan**: Menerapkan pemutusan darurat dan langkah-langkah keselamatan lainnya dalam firmware.
-- **Antarmuka Pengguna**: Antarmuka dasar bagi pengguna untuk mengatur preferensi tanning dan melihat informasi status.
-
-### Aplikasi Pengguna
-Aplikasi mobile atau web yang menyediakan fungsionalitas berikut:
-- **Kustomisasi Sesi**: Memungkinkan pengguna untuk menyesuaikan sesi tanning (durasi, intensitas, dll.).
-- **Pemantauan Waktu Nyata**: Menampilkan data waktu nyata dari sensor tanning bed.
-- **Pemberitahuan dan Notifikasi**: Mengirim pemberitahuan jika kondisi tidak aman atau sesi tanning selesai.
+** **
 
 ## Hasil Pengujian dan Evaluasi Kinerja
-### Prosedur Pengujian
-- **Pengujian Komponen**: Pengujian individu lampu UV, sensor, mikrokontroler, dan sistem pendingin.
-- **Pengujian Integrasi**: Memastikan semua komponen perangkat keras berfungsi dengan baik secara bersama-sama.
-- **Pengujian Perangkat Lunak**: Pengujian fitur firmware dan aplikasi pengguna.
+### Hasil Pengujian
+** **
 
 ### Metode Evaluasi Kinerja
-- **Keselamatan**: Efektivitas mekanisme keselamatan dalam mencegah overexposure dan overheating.
-- **Efisiensi**: Akurasi kontrol intensitas UV dan regulasi suhu.
-- **Pengalaman Pengguna**: Umpan balik dari pengguna uji mengenai kemudahan penggunaan dan pengalaman keseluruhan.
-
-### Hasil
-- **Keselamatan**: Berhasil mencegah kondisi tidak aman selama pengujian.
-- **Efisiensi**: Mencapai kontrol yang tepat atas intensitas tanning dan menjaga suhu yang nyaman.
-- **Umpan Balik Pengguna**: Umpan balik positif tentang kemudahan penggunaan dan fitur keselamatan.
+- **Efektivitas mekanisme keselamatan dalam mencegah overexposure dan overheating.**
+- **Akurasi kontrol intensitas UV dan regulasi suhu.**
+- **Umpan balik dari pengguna uji mengenai kemudahan penggunaan dan pengalaman keseluruhan.**
 
 ## Kesimpulan dan Pekerjaan Masa Depan
 ### Kesimpulan
-Proyek TANNING BED berhasil menunjukkan kelayakan dari tanning bed pintar yang meningkatkan keselamatan dan pengalaman pengguna melalui integrasi sensor modern dan otomatisasi. Kombinasi komponen perangkat keras dan perangkat lunak menyediakan solusi efektif untuk masalah yang terkait dengan tanning bed tradisional.
+Proyek TANNING BED berhasil menunjukkan kelayakan dari tanning bed yang meningkatkan keselamatan dan pengalaman pengguna melalui integrasi sensor modern dan otomatisasi. Kombinasi komponen perangkat keras dan perangkat lunak menyediakan solusi efektif untuk masalah yang terkait dengan tanning bed tradisional.
 
 ### Pekerjaan Masa Depan
-- **Antarmuka Pengguna yang Ditingkatkan**: Mengembangkan aplikasi pengguna yang lebih canggih dengan fitur tambahan.
-- **Fitur Keselamatan Lanjutan**: Mengintegrasikan mekanisme keselamatan yang lebih maju seperti deteksi jenis kulit dan rekomendasi tanning yang dipersonalisasi.
-- **Skalabilitas**: Menjelajahi potensi produksi komersial dan skalabilitas dari tanning bed pintar.
-- **Efisiensi Energi**: Mengoptimalkan konsumsi energi dari tanning bed untuk keberlanjutan.
-
-README.md ini menyediakan gambaran menyeluruh mengenai proyek TANNING BED, yang mencakup masalah, solusi, implementasi perangkat keras dan perangkat lunak, hasil pengujian, serta pekerjaan masa depan.
+- **Mengembangkan aplikasi pengguna yang lebih canggih dengan fitur tambahan.**
+- **Mengintegrasikan mekanisme keselamatan yang lebih maju seperti deteksi jenis kulit dan rekomendasi tanning yang dipersonalisasi.**
+- **Menjelajahi potensi produksi komersial dan skalabilitas dari tanning bed.**
+- **Mengoptimalkan konsumsi energi dari tanning bed untuk keberlanjutan.**
