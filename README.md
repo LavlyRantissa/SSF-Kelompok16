@@ -29,7 +29,7 @@ Penggunaan tanning bed untuk mendapatkan kulit yang lebih gelap semakin populer,
 Proyek TANNING BED bertujuan untuk merancang dan mengimplementasikan tanning bed yang dilengkapi dengan sensor dan otomatisasi untuk memastikan keselamatan user dan mengoptimalkan sesi tanning. Proyek ini menggabungkan komponen perangkat keras dan perangkat lunak untuk memantau dan mengontrol proses tanning, memberikan pengalaman tanning yang lebih aman dan efisien.
 
 ## Hardware design and implementation details
-### Komponen Perangkat Keras
+### Komponen Hardware
 1. **Arduino Uno**
 2. **DHT11**
 3. **Button**
@@ -64,7 +64,7 @@ Setelah dilakukan pengujian, didapatkan beberapa hasil seperti yang diinginkan n
 ### Kesimpulan
 Proyek TANNING BED berhasil menunjukkan kelayakan dari tanning bed yang meningkatkan keselamatan dan pengalaman user melalui integrasi sensor modern dan otomatisasi. Kombinasi komponen perangkat keras dan perangkat lunak menyediakan solusi efektif untuk masalah yang terkait dengan tanning bed tradisional.
 
-### Future Work
+### Pengembangan Lanjutan
 - **Mengembangkan aplikasi user yang lebih canggih dengan fitur tambahan.**
 - **Mengintegrasikan mekanisme keselamatan yang lebih maju seperti deteksi jenis kulit dan rekomendasi tanning yang dipersonalisasi.**
 - **Menjelajahi potensi produksi komersial dan skalabilitas dari tanning bed.**
