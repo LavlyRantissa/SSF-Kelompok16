@@ -1,4 +1,4 @@
-# TANNING BED
+<h1 align="center">TANNING BED</h1>
 
 ## Grup SSF 16
 - Rizqi Zaidan (2206059342)
@@ -8,10 +8,10 @@
 
 ## Pendahuluan Mengenai Masalah dan Solusinya
 ### Pernyataan Masalah
-Penggunaan tanning bed untuk mendapatkan kulit yang lebih gelap semakin populer, terutama di daerah dengan sinar matahari terbatas atau selama musim dingin. Namun, penggunaan tanning bed yang tidak tepat dapat menyebabkan masalah kesehatan serius seperti kanker kulit dan penuaan dini. Oleh karena itu, diperlukan sebuah tanning bed pintar yang dapat memastikan keselamatan pengguna sekaligus memberikan pengalaman tanning yang efektif.
+Penggunaan tanning bed untuk mendapatkan kulit yang lebih gelap semakin populer, terutama di daerah dengan sinar matahari terbatas atau selama musim dingin. Namun, penggunaan tanning bed yang tidak tepat dapat menyebabkan masalah kesehatan serius seperti kanker kulit dan penuaan dini. Oleh karena itu, diperlukan sebuah tanning bed yang dapat memastikan keselamatan pengguna sekaligus memberikan pengalaman tanning yang efektif.
 
-### Gambaran Solusi
-Proyek TANNING BED bertujuan untuk merancang dan mengimplementasikan tanning bed pintar yang dilengkapi dengan sensor dan otomatisasi untuk memastikan keselamatan pengguna dan mengoptimalkan sesi tanning. Proyek ini menggabungkan komponen perangkat keras dan perangkat lunak untuk memantau dan mengontrol proses tanning, memberikan pengalaman tanning yang lebih aman dan efisien.
+### Solusi
+Proyek TANNING BED bertujuan untuk merancang dan mengimplementasikan tanning bed yang dilengkapi dengan sensor dan otomatisasi untuk memastikan keselamatan pengguna dan mengoptimalkan sesi tanning. Proyek ini menggabungkan komponen perangkat keras dan perangkat lunak untuk memantau dan mengontrol proses tanning, memberikan pengalaman tanning yang lebih aman dan efisien.
 
 ## Rancangan dan Implementasi Perangkat Keras
 ### Komponen Perangkat Keras
