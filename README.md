@@ -1,34 +1,34 @@
 <h1 align="center">TANNING BED</h1>
 
-## Daftar Isi
-1. [Pendahuluan Mengenai Masalah dan Solusinya](#pendahuluan-mengenai-masalah-dan-solusinya)
-   - [Pernyataan Masalah](#pernyataan-masalah)
-   - [Solusi](#solusi)
-2. [Rancangan dan Implementasi Perangkat Keras](#rancangan-dan-implementasi-perangkat-keras)
-   - [Komponen Perangkat Keras](#komponen-perangkat-keras)
-   - [Implementasi Perangkat Keras](#implementasi-perangkat-keras)
-3. [Rincian Implementasi Perangkat Lunak](#rincian-implementasi-perangkat-lunak)
-4. [Hasil Pengujian dan Evaluasi Kinerja](#hasil-pengujian-dan-evaluasi-kinerja)
-   - [Hasil Pengujian](#hasil-pengujian)
-   - [Metode Evaluasi Kinerja](#metode-evaluasi-kinerja)
-5. [Kesimpulan dan Pekerjaan Masa Depan](#kesimpulan-dan-pekerjaan-masa-depan)
-   - [Kesimpulan](#kesimpulan)
-   - [Pekerjaan Masa Depan](#pekerjaan-masa-depan)
-
 ## Grup SSF 16
 - Rizqi Zaidan (2206059342)
 - Lavly Rantissa Zunnuraina Rusdi (2206830624)
 - Kevin Raihan (2206)
 - Muhammad Nadhif Fasichul Ilmi (2206813416)
 
-## Pendahuluan Mengenai Masalah dan Solusinya
+## Daftar Isi
+- [Introduction to the problem and the solution](#introduction-to-the-problem-and-the-solution)
+  - [Pernyataan Masalah](#pernyataan-masalah)
+  - [Solusi](#solusi)
+- [Hardware design and implementation details](#hardware-design-and-implementation-details)
+  - [Komponen Perangkat Keras](#komponen-perangkat-keras)
+  - [Implementasi Hardware](#implementasi-hardware)
+- [Software implementation details](#software-implementation-details)
+- [Test results and performance evaluation](#test-results-and-performance-evaluation)
+  - [Hasil Pengujian](#hasil-pengujian)
+  - [Metode Evaluasi Kinerja](#metode-evaluasi-kinerja)
+- [Conclusion and future work](#conclusion-and-future-work)
+  - [Kesimpulan](#kesimpulan)
+  - [Future Work](#future-work)
+
+## Introduction to the problem and the solution
 ### Pernyataan Masalah
 Penggunaan tanning bed untuk mendapatkan kulit yang lebih gelap semakin populer, terutama di daerah dengan sinar matahari terbatas atau selama musim dingin. Namun, penggunaan tanning bed yang tidak tepat dapat menyebabkan masalah kesehatan serius seperti kanker kulit dan penuaan dini. Oleh karena itu, diperlukan sebuah tanning bed yang dapat memastikan keselamatan pengguna sekaligus memberikan pengalaman tanning yang efektif.
 
 ### Solusi
 Proyek TANNING BED bertujuan untuk merancang dan mengimplementasikan tanning bed yang dilengkapi dengan sensor dan otomatisasi untuk memastikan keselamatan pengguna dan mengoptimalkan sesi tanning. Proyek ini menggabungkan komponen perangkat keras dan perangkat lunak untuk memantau dan mengontrol proses tanning, memberikan pengalaman tanning yang lebih aman dan efisien.
 
-## Rancangan dan Implementasi Perangkat Keras
+## Hardware design and implementation details
 ### Komponen Perangkat Keras
 1. **Arduino Uno**
 2. **DHT11**
@@ -39,13 +39,13 @@ Proyek TANNING BED bertujuan untuk merancang dan mengimplementasikan tanning bed
 7. **Buzzer**
 8. **Motor driver**
 
-### Implementasi Perangkat Keras
+### Implementasi Hardware
 ** **
 
-## Rincian Implementasi Perangkat Lunak
+## Software implementation details
 ** **
 
-## Hasil Pengujian dan Evaluasi Kinerja
+## Test results and performance evaluation
 ### Hasil Pengujian
 ** **
 
@@ -54,11 +54,11 @@ Proyek TANNING BED bertujuan untuk merancang dan mengimplementasikan tanning bed
 - **Akurasi kontrol intensitas UV dan regulasi suhu.**
 - **Umpan balik dari pengguna uji mengenai kemudahan penggunaan dan pengalaman keseluruhan.**
 
-## Kesimpulan dan Pekerjaan Masa Depan
+## Conclusion and future work
 ### Kesimpulan
 Proyek TANNING BED berhasil menunjukkan kelayakan dari tanning bed yang meningkatkan keselamatan dan pengalaman pengguna melalui integrasi sensor modern dan otomatisasi. Kombinasi komponen perangkat keras dan perangkat lunak menyediakan solusi efektif untuk masalah yang terkait dengan tanning bed tradisional.
 
-### Pekerjaan Masa Depan
+### Future Work
 - **Mengembangkan aplikasi pengguna yang lebih canggih dengan fitur tambahan.**
 - **Mengintegrasikan mekanisme keselamatan yang lebih maju seperti deteksi jenis kulit dan rekomendasi tanning yang dipersonalisasi.**
 - **Menjelajahi potensi produksi komersial dan skalabilitas dari tanning bed.**
